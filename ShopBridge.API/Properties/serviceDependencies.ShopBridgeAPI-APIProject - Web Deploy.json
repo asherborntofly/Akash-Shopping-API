@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/ShopBridgeAPI-ApiService/apis/ShopBridgeAPI-Endpoint",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/shopbridge-api-server/databases/ShopBridge",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:Default",
+      "dynamicId": null
+    }
+  }
+}
